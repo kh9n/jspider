@@ -1,0 +1,14 @@
+{
+  "name": "jscrapy",
+  "version": "0.0.1",
+  "description": "The Scrapy in JS, powered by node.",
+  "main": "main.js",
+  "scripts": {
+    "test": "Goalie.js"
+  },
+  "author": "Li Jiang",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^3.0.4"
+  }
+}

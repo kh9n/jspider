@@ -9,9 +9,12 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceRoot}/main.js",
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceRoot}", 
+            "runtimeArgs": [
+                "--harmony-async-await"
+            ],
             "args": [
-                "-arg1", "-arg2"
+                "-h"
             ]
         },
         {

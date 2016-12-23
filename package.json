@@ -1,14 +1,14 @@
 {
-    "name": "jscrapy",
+    "name": "jspider",
     "version": "0.0.1",
-    "description": "The Scrapy in JS, powered by node.",
+    "description": "The Javascript spider running on Node, inspired by Scrapy, design for plugable and scalable.",
     "main": "main.js",
-    "scripts": {
-        "test": "Goalie.js"
-    },
     "author": "Li Jiang",
     "license": "ISC",
     "dependencies": {
         "command-line-args": "^3.0.4"
+    },
+    "engines": {
+        "node": ">= 7.3.0"
     }
 }
